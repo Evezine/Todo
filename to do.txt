@@ -1,6 +1,6 @@
  TODO
 --------
- 1.python -m venv env - to creating an environment
+1.python -m venv env - to creating an environment
 
 2.source env/Scripts/activate - to activate the environment
 
@@ -18,3 +18,11 @@ Password:
 Password (again):
 Superuser created successfully.
 (env) 
+
+7.python manage.py startapp todos- creating a app to run
+in setting.py add the todos
+
+8.python manage.py makemigrations- to generate sql queries
+9.python manage.py migrate- to apply the sql queries
+
+10.python manage.py runserver - to run server
